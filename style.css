@@ -229,8 +229,8 @@ a {
   border: 3px solid #ffca2c;
 }
 .contact-bg input {
-  width: 40dvh;
   border: none;
+  width: 40dvh;
   border-bottom: 2px solid #ffca2c;
   outline: none;
   border-radius: 12px;

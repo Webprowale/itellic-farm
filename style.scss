@@ -259,14 +259,15 @@
    border: 3px solid $tartiary;
 
    input{
-    width: 40dvh;
     border: none;
+    width: 40dvh;
     border-bottom:2px solid $tartiary ;
     outline: none;
     border-radius: 12px;
     padding: 10px;
     background-color: transparent;
    }
+   
    textarea{
     resize: none;
     width: 250px;
@@ -282,6 +283,7 @@
     border: none;
     background-color: transparent;
     border-bottom: 2px solid $tartiary;
+    
     
    }
    
