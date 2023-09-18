@@ -12,7 +12,7 @@
         
     }
      body{
-        background-color: #F0F0F0;
+        background-color: $base;
      }
      .tartiary{
         color: $tartiary;
@@ -63,6 +63,7 @@
     }
     .lead{
         font-family: 'Rubik', sans-serif;
+        
         
     }
     
@@ -140,7 +141,7 @@
 .sign{
     position: relative;
     top: -50px;
-    background-color: #333;
+    background-color: $base;
     height: 50dvh;
     transition: all 0.1s ;
 }
@@ -247,8 +248,8 @@
 
 .contact-bg{
     background-color: transparent;
-    width: 75dvh;
-    height: 80dvh;
+    width: 60dvh;
+    height: 75dvh;
     border-top-right-radius: 60%;
     border-top-left-radius: 38%;
     border-bottom-left-radius: 70%;
@@ -291,6 +292,9 @@
 .fa-solid{
     font-size: 40px;
     color: $tartiary;
+}
+li a{
+    color: $primary;
 }
 }
 // CART
